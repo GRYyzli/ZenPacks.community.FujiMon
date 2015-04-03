@@ -5,11 +5,11 @@
 NAME = "ZenPacks.community.FujiMon"
 VERSION = "1.0.0"
 AUTHOR = "Michal Rusak"
-LICENSE = ""
+LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.community']
 PACKAGES = ['ZenPacks', 'ZenPacks.community', 'ZenPacks.community.FujiMon']
-INSTALL_REQUIRES = []
-COMPAT_ZENOSS_VERS = ""
+INSTALL_REQUIRES = ['ZenPacks.community.deviceAdvDetail>=1.3']
+COMPAT_ZENOSS_VERS = ">=2.5"
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
 ################################
